@@ -1,7 +1,7 @@
 package com.example.readingStack.exception;
 
 public class SaveDirectoryNotFoundException extends RuntimeException {
-	//コンストラクタ
+	/** コンストラクタ */
 	public SaveDirectoryNotFoundException(String errorMessage) {
 		super(errorMessage);
 	}
