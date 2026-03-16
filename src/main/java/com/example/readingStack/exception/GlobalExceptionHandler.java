@@ -42,3 +42,4 @@ public class GlobalExceptionHandler {
 	public ResponseEntity<ErrorResponse> handleUnExpected(Exception e) {
 		return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(new ErrorResponse("想定外のエラーが発生しました。"));
 	}
+}

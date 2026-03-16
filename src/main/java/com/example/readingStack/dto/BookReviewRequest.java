@@ -1,7 +1,7 @@
 package com.example.readingStack.dto;
 
 import jakarta.validation.constraints.NotBlank;
-import jakarta.valitation.constraints.Pattern;
+import jakarta.validation.constraints.Pattern;
 
 public class BookReviewRequest {
 	//メッセージ(Controllerで@Validを使用するとチェックし、引っかかった場合にメッセージを返す)
@@ -18,7 +18,7 @@ public class BookReviewRequest {
 	/** 読んだ章・範囲 */
 	private String readingRange;
 	/** 要約 */
-	private String sammary;
+	private String summary;
 	/** 良かった点 */
 	private String goodPoints;
 	/** 気づきや学び */
